@@ -8,8 +8,8 @@ public class TP02Ex05 {
 		Scanner scanner = new Scanner(System.in);
 		
 		int[][] matriz = {{1, 2,},
-						  {3, 4},
-						  {5, 6}};
+				  {3, 4},
+				  {5, 6}};
 						  
 		System.out.println("Os valores da matriz: ");
 		
