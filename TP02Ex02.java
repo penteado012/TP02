@@ -18,7 +18,6 @@ public class TP02Ex02 {
         
         Scanner scanner = new Scanner(System.in);
         
-        int[] array = new int[10];
         int num;
         int maior = 0;
         double soma = 0;
@@ -26,7 +25,6 @@ public class TP02Ex02 {
         for (int i = 0; i < 10; i++) {
             System.out.println("Digite um numero");
             num = scanner.nextInt();
-            array[i] = num;
             if(maior < num)
                 maior = num;
             
